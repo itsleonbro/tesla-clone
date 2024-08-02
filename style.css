@@ -7,26 +7,45 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  color: white;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 body {
-    overflow: scroll; /* Show scrollbars */
-  }
+  overflow-y: scroll;
+}
 
 h1 {
-  font-size: 40px;
+  font-size: 56px;
   font-weight: 500;
 }
 
 p {
-  font-size: 14px;
+  font-size: 17px;
   font-weight: 400;
-  padding: 6px 24px 16px 24px;
+  padding: 6px 24px 0px 24px;
 }
 
-p a{
-    color: inherit;
-    font-weight: 300;
+.title-section .price {
+  font-size: 28px;
+}
+
+.title-section .terms {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
+}
+
+p a {
+  color: inherit;
+  font-weight: 300;
 }
 
 .banner-wrap {
@@ -34,7 +53,7 @@ p a{
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
-  width: 100vhw;
+  width: 100vw;
   background-size: cover;
 }
 
@@ -57,20 +76,30 @@ p a{
 }
 
 .nav-item:hover {
-  background-color: #d8d9da;
-  border-radius: 15px;
+  background-color: rgba(100, 100, 100, 0.2);
+  border-radius: 5px;
+}
+
+.right-menu a {
+  padding-right: 10px;
+  text-decoration: none;
+}
+
+.right-menu svg {
+  height: 24px;
+  width: 24px;
 }
 
 main {
   text-align: center;
-  height: calc(100vh - 56px);
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .title-section {
-  margin-top: calc(164px - 56px);
+  margin-top: 36px;
 }
 
 .action-btn {
@@ -90,12 +119,12 @@ button {
   margin-right: 15px;
 }
 
-.action-btn .btn-left{
-    background-color: #191d21;
-    color: white;
+.action-btn .btn-left {
+  background-color: #3e6ae1;
+  color: white;
 }
 
-.action-btn .btn-right{
-    background-color: #e4e4e2;
-    color: white;
+.action-btn .btn-right {
+  background-color: #fff;
+  color: #393c41;
 }
