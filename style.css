@@ -1,3 +1,4 @@
+/* Import Font */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 * {
@@ -15,13 +16,13 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
 }
 
 body {
-  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
+/* Typography */
 h1 {
   font-size: 56px;
   font-weight: 500;
@@ -33,22 +34,13 @@ p {
   padding: 6px 24px 0px 24px;
 }
 
-.title-section .price {
-  font-size: 28px;
-}
-
-.title-section .terms {
-  text-decoration: underline;
-  text-underline-offset: 4px;
-  text-decoration-thickness: 1px;
-}
-
 p a {
   color: inherit;
   font-weight: 300;
 }
 
-.banner-wrap {
+/* Banner Section */
+.banner-wrap-model-3 {
   background-image: url(./assets/Homepage-Model-3-Desktop-US.avif);
   background-repeat: no-repeat;
   background-position: center;
@@ -57,17 +49,36 @@ p a {
   background-size: cover;
 }
 
-.logo {
-  height: 24px;
-  width: 120px;
+.banner-wrap-model-y {
+  background-image: url(./assets/Homepage-Model-Y-Desktop-US-v2.avif);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
 }
 
+.banner-wrap-cybertruck {
+  background-image: url(./assets/Homepage-Cybertruck-Desktop.avif);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+}
+
+/* Nav */
 #navbar {
   display: flex;
   justify-content: space-between;
   height: 56px;
   align-items: center;
   padding: 0px 32px;
+}
+
+.logo {
+  height: 24px;
+  width: 120px;
 }
 
 .nav-item {
@@ -90,6 +101,7 @@ p a {
   width: 24px;
 }
 
+/* Main Section */
 main {
   text-align: center;
   height: 100vh;
@@ -102,20 +114,35 @@ main {
   margin-top: 36px;
 }
 
+.title-section .terms {
+  font-size: 28px;
+  text-decoration: underline;
+  text-underline-offset: 7px;
+  text-decoration-thickness: 1px;
+}
+
+.title-section .logo-wrapper {
+  margin-top: 70px;
+}
+.title-section .cybertruck-logo {
+  width: 500px;
+  height: auto;
+}
+
+/* Action Buttons */
 .action-btn {
   margin-bottom: 100px;
 }
 
-button {
+.action-btn a {
+  text-decoration: none;
   margin: 0;
   padding: 0;
   border: none;
-  background: none;
-  background-color: #d8d9da;
-  padding: 4px 24px;
+  padding: 12px 100px;
   border-radius: 5px;
   width: 264px;
-  height: 40px;
+  height: 50px;
   margin-right: 15px;
 }
 
@@ -127,4 +154,48 @@ button {
 .action-btn .btn-right {
   background-color: #fff;
   color: #393c41;
+}
+.action-btn .cybertruck-btn {
+  background-color: rgba(17, 17, 17, 0.8);
+  color: rgb(148, 148, 148);
+  border: solid 1px rgb(69, 69, 69);
+  border-radius: 0px;
+}
+
+/* Footer */
+
+footer {
+  background-color: black;
+}
+
+.container-footer p,
+.container-footer li {
+  font-size: 12px;
+}
+
+.container-footer p {
+  font-weight: 300;
+}
+
+.container-footer li {
+  font-weight: 400;
+}
+
+.container-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-footer ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  margin: 20px 5px;
+}
+
+.footer-message {
+  margin: 20px 5px;
+  text-align: center;
+  padding: 0 400px;
 }
