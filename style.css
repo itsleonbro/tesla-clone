@@ -39,7 +39,45 @@ p a {
   font-weight: 300;
 }
 
-/* Banner Section */
+/* Navigation bar */
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 56px;
+  align-items: center;
+  padding: 0px 32px;
+}
+
+.logo {
+  height: 24px;
+  width: 120px;
+}
+
+.nav-item {
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  background-color: rgba(100, 100, 100, 0.4);
+  border-radius: 5px;
+}
+
+.right-menu a {
+  padding-right: 10px;
+  text-decoration: none;
+}
+
+.right-menu svg:hover {
+  background-color: rgba(100, 100, 100, 0.4);
+}
+
+.right-menu svg {
+  height: 24px;
+  width: 24px;
+}
+
+/* Banner Sections */
 .banner-wrap-model-3 {
   background-image: url(./assets/Homepage-Model-3-Desktop-US.avif);
   background-repeat: no-repeat;
@@ -67,41 +105,7 @@ p a {
   background-size: cover;
 }
 
-/* Nav */
-#navbar {
-  display: flex;
-  justify-content: space-between;
-  height: 56px;
-  align-items: center;
-  padding: 0px 32px;
-}
-
-.logo {
-  height: 24px;
-  width: 120px;
-}
-
-.nav-item {
-  padding: 5px 15px;
-  cursor: pointer;
-}
-
-.nav-item:hover {
-  background-color: rgba(100, 100, 100, 0.2);
-  border-radius: 5px;
-}
-
-.right-menu a {
-  padding-right: 10px;
-  text-decoration: none;
-}
-
-.right-menu svg {
-  height: 24px;
-  width: 24px;
-}
-
-/* Main Section */
+/* Main Section Content */
 main {
   text-align: center;
   height: 100vh;
@@ -155,11 +159,23 @@ main {
   background-color: #fff;
   color: #393c41;
 }
+
 .action-btn .cybertruck-btn {
   background-color: rgba(17, 17, 17, 0.8);
   color: rgb(148, 148, 148);
   border: solid 1px rgb(69, 69, 69);
   border-radius: 0px;
+}
+
+/* Hover effect for buttons */
+.action-btn .btn-left:hover {
+  background-color: #3860cd;
+  color: white;
+}
+
+.action-btn .btn-right:hover {
+  background-color: #e9e9e9;
+  color: #393c41;
 }
 
 /* Footer */
