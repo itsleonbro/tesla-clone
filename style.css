@@ -18,6 +18,7 @@ body {
   padding: 0;
 }
 
+/* Stops horizontal scrolling */
 body {
   overflow-x: hidden;
 }
@@ -58,23 +59,24 @@ p a {
   cursor: pointer;
 }
 
-.nav-item:hover {
-  background-color: rgba(100, 100, 100, 0.4);
-  border-radius: 5px;
-}
-
 .right-menu a {
   padding-right: 10px;
   text-decoration: none;
 }
 
-.right-menu svg:hover {
-  background-color: rgba(100, 100, 100, 0.4);
-}
-
 .right-menu svg {
   height: 24px;
   width: 24px;
+}
+
+/* Hover effect for buttons */
+.nav-item:hover {
+  background-color: rgba(100, 100, 100, 0.4);
+  border-radius: 5px;
+}
+
+.right-menu svg:hover {
+  background-color: rgba(100, 100, 100, 0.4);
 }
 
 /* Banner Sections */
@@ -106,7 +108,7 @@ p a {
 }
 
 /* Main Section Content */
-main {
+.main-content {
   text-align: center;
   height: 100vh;
   display: flex;
