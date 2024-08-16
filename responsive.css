@@ -1,189 +1,205 @@
 /* Tablet (Portrait) */
 @media (max-width: 768px) {
-    /* Typography */
-    h1 {
-      font-size: 36px;
-    }
-  
-    p {
-      font-size: 14px;
-      padding: 4px 12px;
-    }
-  
-    /* Navigation bar */
-    #navbar {
-      padding: 0px 16px;
-    }
-  
-    .logo {
-      height: 20px;
-      width: 100px;
-    }
-  
-    .nav-item {
-      padding: 5px 10px;
-    }
-  
-    .right-menu svg {
-      height: 20px;
-      width: 20px;
-    }
-  
-    /* Banner Sections */
-    .banner-wrap-model-3,
-    .banner-wrap-model-y,
-    .banner-wrap-cybertruck {
-      height: 60vh;
-      width: 100vw;
-      background-size: cover;
-    }
-  
-    /* Main Section Content */
-    .main-content {
-      text-align: center;
-      height: 60vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      padding: 20px;
-    }
-  
-    .title-section {
-      margin-top: 20px;
-    }
-  
-    .title-section .terms {
-      font-size: 22px;
-    }
-  
-    .title-section .logo-wrapper {
-      margin-top: 40px;
-    }
-  
-    .title-section .cybertruck-logo {
-      width: 300px;
-    }
-  
-    /* Action Buttons */
-    .action-btn a {
-      padding: 10px 50px;
-      width: auto;
-      height: auto;
-    }
-  
-    .action-btn .btn-left {
-      padding: 10px 40px;
-    }
-  
-    .action-btn .btn-right {
-      padding: 10px 40px;
-    }
-  
-    .action-btn .cybertruck-btn {
-      padding: 10px 40px;
-    }
-  
-    /* Footer */
-    .container-footer p,
-    .container-footer li {
-      font-size: 10px;
-    }
-  
-    .footer-message {
-      padding: 0 20px;
-    }
+  /* Typography */
+  h1 {
+    font-size: 36px;
   }
-  
-  /* Mobile Devices (Portrait) */
-  @media (max-width: 435px) {
-    /* Typography */
-    h1 {
-      font-size: 24px;
-    }
-  
-    p {
-      font-size: 12px;
-      padding: 2px 8px;
-    }
-  
-    /* Navigation bar */
-    #navbar {
-      padding: 0px 8px;
-    }
-  
-    .logo {
-      height: 16px;
-      width: 80px;
-    }
-  
-    .nav-item {
-      padding: 4px 8px;
-    }
-  
-    .right-menu svg {
-      height: 18px;
-      width: 18px;
-    }
-  
-    /* Banner Sections */
-    .banner-wrap-model-3,
-    .banner-wrap-model-y,
-    .banner-wrap-cybertruck {
-      height: 50vh;
-      width: 100vw;
-      background-size: cover;
-    }
-  
-    /* Main Section Content */
-    .main-content {
-      text-align: center;
-      height: 50vh;
-      padding: 10px;
-    }
-  
-    .title-section {
-      margin-top: 10px;
-    }
-  
-    .title-section .terms {
-      font-size: 18px;
-    }
-  
-    .title-section .logo-wrapper {
-      margin-top: 20px;
-    }
-  
-    .title-section .cybertruck-logo {
-      width: 200px;
-    }
-  
-    /* Action Buttons */
-    .action-btn a {
-      padding: 8px 30px;
-      width: auto;
-      height: auto;
-    }
-  
-    .action-btn .btn-left {
-      padding: 8px 25px;
-    }
-  
-    .action-btn .btn-right {
-      padding: 8px 25px;
-    }
-  
-    .action-btn .cybertruck-btn {
-      padding: 8px 25px;
-    }
-  
-    /* Footer */
-    .container-footer p,
-    .container-footer li {
-      font-size: 8px;
-    }
-  
-    .footer-message {
-      padding: 0 10px;
-    }
+
+  p {
+    font-size: 14px;
+    padding: 4px 12px;
   }
-  
+
+  /* Navigation bar */
+  #navbar {
+    padding: 0px 16px;
+  }
+
+  .logo {
+    height: 20px;
+    width: 100px;
+  }
+
+  .nav-item {
+    padding: 5px 10px;
+  }
+
+  .right-menu svg {
+    height: 20px;
+    width: 20px;
+  }
+
+  /* Mobile nav */
+
+  .middle-menu,
+  .right-menu {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: flex;
+  }
+
+  .mobile-menu {
+    color: black;
+    background-color: white;
+    height: 100vh;
+  }
+
+  /* Banner Sections */
+  .banner-wrap-model-3,
+  .banner-wrap-model-y,
+  .banner-wrap-cybertruck {
+    height: 60vh;
+    width: 100vw;
+    background-size: cover;
+  }
+
+  /* Main Section Content */
+  .main-content {
+    text-align: center;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .title-section {
+    margin-top: 20px;
+  }
+
+  .title-section .terms {
+    font-size: 22px;
+  }
+
+  .title-section .logo-wrapper {
+    margin-top: 40px;
+  }
+
+  .title-section .cybertruck-logo {
+    width: 300px;
+  }
+
+  /* Action Buttons */
+  .action-btn a {
+    padding: 10px 50px;
+    width: auto;
+    height: auto;
+  }
+
+  .action-btn .btn-left {
+    padding: 10px 40px;
+  }
+
+  .action-btn .btn-right {
+    padding: 10px 40px;
+  }
+
+  .action-btn .cybertruck-btn {
+    padding: 10px 40px;
+  }
+
+  /* Footer */
+  .container-footer p,
+  .container-footer li {
+    font-size: 10px;
+  }
+
+  .footer-message {
+    padding: 0 20px;
+  }
+}
+
+/* Mobile Devices (Portrait) */
+@media (max-width: 435px) {
+  /* Typography */
+  h1 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 12px;
+    padding: 2px 8px;
+  }
+
+  /* Navigation bar */
+  #navbar {
+    padding: 0px 8px;
+  }
+
+  .logo {
+    height: 16px;
+    width: 80px;
+  }
+
+  .nav-item {
+    padding: 4px 8px;
+  }
+
+  .right-menu svg {
+    height: 18px;
+    width: 18px;
+  }
+
+  /* Banner Sections */
+  .banner-wrap-model-3,
+  .banner-wrap-model-y,
+  .banner-wrap-cybertruck {
+    height: 50vh;
+    width: 100vw;
+    background-size: cover;
+  }
+
+  /* Main Section Content */
+  .main-content {
+    text-align: center;
+    height: 50vh;
+    padding: 10px;
+  }
+
+  .title-section {
+    margin-top: 10px;
+  }
+
+  .title-section .terms {
+    font-size: 18px;
+  }
+
+  .title-section .logo-wrapper {
+    margin-top: 20px;
+  }
+
+  .title-section .cybertruck-logo {
+    width: 200px;
+  }
+
+  /* Action Buttons */
+  .action-btn a {
+    padding: 8px 30px;
+    width: auto;
+    height: auto;
+  }
+
+  .action-btn .btn-left {
+    padding: 8px 25px;
+  }
+
+  .action-btn .btn-right {
+    padding: 8px 25px;
+  }
+
+  .action-btn .cybertruck-btn {
+    padding: 8px 25px;
+  }
+
+  /* Footer */
+  .container-footer p,
+  .container-footer li {
+    font-size: 8px;
+  }
+
+  .footer-message {
+    padding: 0 10px;
+  }
+}

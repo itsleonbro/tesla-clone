@@ -72,7 +72,23 @@
             </svg>
           </a>
         </div>
+
+        <!-- Hamburger menu for mobile -->
+        <div class="hamburger-menu" onclick="toggleMobileMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </nav>
+
+      <!-- Mobile menu... initially hidden -->
+      <div id="mobile-menu" class="mobile-menu">
+        <span class="mobile-nav-item">Vehicles</span>
+        <span class="mobile-nav-item">Energy</span>
+        <span class="mobile-nav-item">Charging</span>
+        <span class="mobile-nav-item">Discover</span>
+        <span class="mobile-nav-item">Shop</span>
+      </div>
 
       <!-- First banner -->
       <div class="main-content">
@@ -175,7 +191,14 @@
           <li>Locations</li>
         </ul>
       </div>
-      <p class="disclaimer">Designed by Leon Hlabathi, for study purposes</p>
+      <div class="disclaimer">
+        <p>
+          Designed by
+          <a href="https://itsleon.dev" target="_blank">Leon Hlabathi</a>, for
+          study purposes
+        </p>
+      </div>
     </footer>
   </body>
+  <script src="app.js"></script>
 </html>
